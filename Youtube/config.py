@@ -2,9 +2,9 @@ import os
 
 class Config(object):
      
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6631772048:AAF4AoHOssXJqYMee6oJ_e2C9onB555GipE")
     API_ID = int(os.environ.get("API_ID", ))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "67d3ec64db8031189962b5d4804884c0")
     #Add your channel id. For force Subscribe.
     CHANNEL = os.environ.get("CHANNEL", "")
     #Skip or add your proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
